@@ -1,3 +1,1 @@
-import { yo } from "./OrbitControls";
-
-console.log(yo);
+export { OrbitControls } from "./OrbitControls";
