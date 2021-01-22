@@ -5,7 +5,8 @@
     "main": "lib/index.js",
     "scripts": {
         "build": "tsc",
-        "start": "parcel docs/index.html"
+        "build:docs": "parcel build -d docs docs_src/index.html",
+        "start": "parcel docs_src/index.html"
     },
     "keywords": [],
     "author": "fand <fand.gmork@gmail.com> (https://gmork.in/)",

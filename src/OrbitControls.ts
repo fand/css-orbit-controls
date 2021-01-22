@@ -1,9 +1,9 @@
 import { Vec3 } from "./Vec3";
 export class OrbitControls {
-    private touches = {
-        ONE: "ROTATE",
-        TWO: "DOLLY_PAN",
-    };
+    // private touches = {
+    //     ONE: "ROTATE",
+    //     TWO: "DOLLY_PAN",
+    // };
 
     private rotation = Vec3.one(0);
     private scale = 1;
