@@ -66,7 +66,6 @@ export class OrbitControls {
             this.translate.x = x - this.dragStartPos.x;
             this.translate.y = y - this.dragStartPos.y;
         }
-        console.log(this.translate);
 
         this.update();
     };
