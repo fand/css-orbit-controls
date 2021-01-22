@@ -2,9 +2,8 @@ import { OrbitControls } from "../src";
 
 const el = document.querySelector("#element");
 const ctrl = new OrbitControls(el as HTMLElement);
+ctrl.start();
 
-const loop = () => {
-    requestAnimationFrame(loop);
-    ctrl.update();
+window.onbeforeunload = () => {
+    ctrl.stop();
 };
-loop();
