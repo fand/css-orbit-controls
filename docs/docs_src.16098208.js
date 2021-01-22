@@ -7,4 +7,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./OrbitControls":"WvIY"}],"QCba":[function(require,module,exports) {
 "use strict";var e=require("../src"),r=document.querySelector("#element"),t=new e.OrbitControls(r);t.start(),window.onbeforeunload=function(){t.stop()};
 },{"../src":"fUdq"}]},{},["QCba"], null)
-//# sourceMappingURL=/docs_src.16098208.js.map
+//# sourceMappingURL=docs_src.16098208.js.map

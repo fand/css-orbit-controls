@@ -6,7 +6,7 @@
     "scripts": {
         "build": "run-s build:*",
         "build:lib": "tsc",
-        "build:docs": "parcel build -d docs docs_src/index.html",
+        "build:docs": "parcel build -d docs --public-url ./ docs_src/index.html",
         "start": "parcel docs_src/index.html"
     },
     "keywords": [],
